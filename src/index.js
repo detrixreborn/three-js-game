@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const title = 'My Minimal React Webpack Babel Setup';
+import GameContainer from "./GameComponent";
 
 ReactDOM.render(
-  <div>{title}</div>,
+  <GameContainer/>,
   document.getElementById('app')
 );
 
